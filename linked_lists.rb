@@ -133,8 +133,7 @@ class LinkedList
         current_node = @head
         count = 0
         if index == 0
-            next_head = current_node.next_node
-            @head = next_head
+            @head = current_node.next_node
             return current_node.value
         end
         prev_node = current_node
