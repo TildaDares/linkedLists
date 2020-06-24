@@ -163,10 +163,12 @@ puts lists.find(78)
 puts lists.find(4)
 puts lists.find(90)
 puts lists.at(-4)
-lists.insert_at(567, -5)
 puts lists.remove_at(4)
 puts lists.remove_at(0)
 puts lists.size
 puts lists.head
 puts lists.tail
+lists.insert_at(567, 3)
+print "#{lists.to_s} "
+lists.remove_at(2)
 print "#{lists.to_s} "
