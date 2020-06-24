@@ -154,6 +154,7 @@ lists.append(4)
 lists.append(78)
 lists.append(2)
 lists.prepend(12)
+lists.prepend(45)
 puts lists.pop
 print "#{lists.to_s} "
 puts lists.contains? (12)
